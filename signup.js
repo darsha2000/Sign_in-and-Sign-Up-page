@@ -14,7 +14,7 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect("mongodb+srv://admin:Adarsh%401234@cluster0.zw62ehx.mongodb.net/week-5-db");
+mongoose.connect("mongodb+srv://admin:<password>@cluster0.zw62ehx.mongodb.net/week-5-db");
 //create middleware for todo
 //password hashing -  done 
 //input validation - done
